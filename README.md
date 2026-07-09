@@ -15,14 +15,8 @@ This repo is a **Claude plugin marketplace**. Installing the plugin gives you:
 ## Install (Claude Code)
 
 ```
-/plugin marketplace add ORTEX-GITHUB-ORG/ortex-claude-plugin   <!-- TODO: replace with the real org before publishing -->
+/plugin marketplace add https://gitlab.com/ortex/ortex-claude-plugin
 /plugin install ortex
-```
-
-Or add the marketplace by URL (works from any git host):
-
-```
-/plugin marketplace add https://github.com/ORTEX-GITHUB-ORG/ortex-claude-plugin
 ```
 
 Then authorise ORTEX when prompted (log in and click **Authorize**, or paste an API key).
