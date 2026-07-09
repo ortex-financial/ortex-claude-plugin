@@ -15,7 +15,7 @@ This repo is a **Claude plugin marketplace**. Installing the plugin gives you:
 ## Install (Claude Code)
 
 ```
-/plugin marketplace add https://gitlab.com/ortex/ortex-claude-plugin
+/plugin marketplace add https://gitlab.com/ortex-public/ortex-claude-plugin
 /plugin install ortex
 ```
 
