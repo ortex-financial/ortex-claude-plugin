@@ -1,12 +1,13 @@
 {
   "name": "ortex",
+  "displayName": "ORTEX",
   "version": "0.1.0",
-  "description": "ORTEX — the institutional short-selling data desks pay for, inside Claude. Bundles the ORTEX data connector with an analyst skill for reading short interest, squeeze risk and cost-to-borrow.",
+  "description": "The institutional short-selling data desks pay for, inside Claude — short interest, cost-to-borrow, days-to-cover, utilisation and squeeze signals, plus options analytics, stock scores, fundamentals, prices and US Congressional trades. Ships with an analyst skill so Claude reads it like a securities-lending pro.",
   "author": {
     "name": "ORTEX",
-    "url": "https://ortex.com"
+    "url": "https://mcp.ortex.com"
   },
-  "homepage": "https://ortex.com",
+  "homepage": "https://mcp.ortex.com",
   "keywords": [
     "finance",
     "stocks",

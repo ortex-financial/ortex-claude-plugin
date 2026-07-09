@@ -2,18 +2,35 @@
   "name": "ortex",
   "owner": {
     "name": "ORTEX",
-    "url": "https://ortex.com"
+    "url": "https://mcp.ortex.com"
   },
   "metadata": {
-    "description": "ORTEX plugins for Claude — institutional short-selling and market-intelligence data.",
+    "description": "ORTEX for Claude — the institutional short-selling and market-intelligence data desks pay for.",
     "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "ortex",
+      "displayName": "ORTEX",
       "source": "./plugins/ortex",
-      "description": "Institutional short interest, cost-to-borrow, options and market data inside Claude, plus an analyst skill for reading it.",
-      "version": "0.1.0"
+      "description": "The institutional short-selling data desks pay for, inside Claude — short interest, cost-to-borrow, days-to-cover, utilisation and squeeze signals, plus options analytics, stock scores, fundamentals, prices and US Congressional trades. Ships with an analyst skill so Claude reads it like a securities-lending pro.",
+      "version": "0.1.0",
+      "author": {
+        "name": "ORTEX",
+        "url": "https://mcp.ortex.com"
+      },
+      "homepage": "https://mcp.ortex.com",
+      "category": "finance",
+      "keywords": [
+        "finance",
+        "stocks",
+        "short interest",
+        "short squeeze",
+        "cost to borrow",
+        "options",
+        "market data",
+        "ortex"
+      ]
     }
   ]
 }
