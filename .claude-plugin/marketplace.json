@@ -1,0 +1,19 @@
+{
+  "name": "ortex",
+  "owner": {
+    "name": "ORTEX",
+    "url": "https://ortex.com"
+  },
+  "metadata": {
+    "description": "ORTEX plugins for Claude — institutional short-selling and market-intelligence data.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "ortex",
+      "source": "./plugins/ortex",
+      "description": "Institutional short interest, cost-to-borrow, options and market data inside Claude, plus an analyst skill for reading it.",
+      "version": "0.1.0"
+    }
+  ]
+}

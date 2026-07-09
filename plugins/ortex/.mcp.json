@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ortex": {
+      "type": "http",
+      "url": "https://mcp.ortex.com/mcp"
+    }
+  }
+}
