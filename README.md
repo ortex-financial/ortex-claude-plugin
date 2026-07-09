@@ -45,6 +45,5 @@ the skill. Your ORTEX key is entered at connect time and never stored in this re
 ## Also available
 
 - **Claude Desktop / ChatGPT:** add `https://mcp.ortex.com` as a custom connector.
-- Learn more: [ortex.com/ai](https://ortex.com/ai)
 
 © ORTEX. See LICENSE.
