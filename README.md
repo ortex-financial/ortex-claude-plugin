@@ -15,13 +15,12 @@ This repo is a **Claude plugin marketplace**. Installing the plugin gives you:
 ## Install (Claude Code)
 
 ```
-/plugin marketplace add https://gitlab.com/ortex-public/ortex-claude-plugin.git
+/plugin marketplace add ortex-financial/ortex-claude-plugin
 /plugin install ortex
 ```
 
 Then authorise ORTEX when prompted (log in and click **Authorize**, or paste an API key).
-A **free ORTEX key** covers prices & fundamentals; short-selling data needs a Pro plan —
-get one at [app.ortex.com/apis](https://app.ortex.com/apis).
+Create a key at [app.ortex.com/apis](https://app.ortex.com/apis); short-selling data needs a Pro plan.
 
 ## Try it
 
