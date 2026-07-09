@@ -2,7 +2,7 @@
   "name": "ortex",
   "displayName": "ORTEX",
   "version": "0.1.0",
-  "description": "The institutional short-selling data desks pay for, inside Claude — short interest, cost-to-borrow, days-to-cover, utilisation and squeeze signals, plus options analytics, stock scores, fundamentals, prices and US Congressional trades. Ships with an analyst skill so Claude reads it like a securities-lending pro.",
+  "description": "The short-selling data desks pay for, inside Claude — short interest, cost-to-borrow, days-to-cover, utilisation and squeeze signals, plus options analytics, stock scores, fundamentals, prices and US Congressional trades. Ships with an analyst skill so Claude reads it like a securities-lending pro.",
   "author": {
     "name": "ORTEX",
     "url": "https://mcp.ortex.com"

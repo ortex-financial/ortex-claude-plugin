@@ -1,6 +1,6 @@
 # ORTEX for Claude — plugin
 
-Institutional **short-selling and market-intelligence data** inside Claude — the
+**Short-selling and market-intelligence data** inside Claude — the
 short interest, cost-to-borrow and squeeze signals desks pay for — plus an analyst
 skill that teaches Claude how to read them.
 
