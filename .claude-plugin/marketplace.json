@@ -13,7 +13,7 @@
       "name": "ortex",
       "displayName": "ORTEX",
       "source": "./plugins/ortex",
-      "description": "The short-selling data desks pay for, inside Claude — short interest, cost-to-borrow, days-to-cover, utilisation and squeeze signals, plus options analytics, stock scores, fundamentals, prices and US Congressional trades. Ships with an analyst skill so Claude reads it like a securities-lending pro.",
+      "description": "The short-selling and market-intelligence data professional desks pay for — inside Claude. Ask in plain English; no dashboards, no CSV exports.\n\nShort interest, cost-to-borrow, days-to-cover, utilisation and squeeze signals. Options chains, Greeks and put/call sentiment. ORTEX stock and short scores. Fundamentals, prices, earnings and macro calendars. Even US Congressional trades — 27 tools across the full ORTEX dataset.\n\nA bundled analyst skill teaches Claude to read it like a securities-lending desk: spotting squeeze setups, weighing cost-to-borrow against days-to-cover and utilisation, and turning raw feeds into a clean, decision-ready call.\n\nTry 'is GME a short-squeeze setup right now?' or 'rank NVDA, AMD and PLTR by ORTEX short score.' More at mcp.ortex.com.",
       "version": "0.1.0",
       "author": {
         "name": "ORTEX",
