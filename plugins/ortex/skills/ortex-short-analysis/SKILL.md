@@ -54,10 +54,22 @@ No single metric is a squeeze. Call it a *setup*, weigh the evidence, and be exp
 3. Always **cite the as-of date** — this data moves daily.
 4. Be measured. This is decision-support, not advice; note uncertainty and what would change the read.
 
-## Free vs paid (handle gracefully)
+## When a tool can't return data (diagnose precisely — don't guess)
 
-Prices, fundamentals and calendars work on a free ORTEX key. The short-selling data
-(short interest, CTB, DTC, scores, options analytics, government trades) needs a **Pro**
-key. If a tool returns an "upgrade required" message, **relay it plainly** with the signup
-link — don't pretend you have the number. Point the user to `ortex_getting_started` /
-`ortex_data_catalog` if they ask how to unlock it.
+An ORTEX tool can be blocked for three *different* reasons that look similar but need
+different fixes. **Relay the tool's actual message; never substitute your own guess**
+(e.g. don't say "you need Pro" when the tool said the key is out of credits):
+
+- **Out of API credits** — the key and plan are fine, the credit balance is just empty.
+  The message says so. Point the user to **https://app.ortex.com/apis** to add credits;
+  the *same connection resumes working immediately* — they do **not** need to upgrade
+  their plan or reconnect.
+- **Plan doesn't include the dataset** — the message says the key's plan doesn't cover
+  this data. Relay it with the link; suggest `ortex_getting_started` if they ask.
+- **Missing/invalid key** — the connector isn't authorised; the message says so.
+
+Prices, fundamentals and calendars are broadly available; the proprietary short-selling
+data (short interest, CTB, DTC, scores, options analytics, government trades) needs a paid
+ORTEX API plan **and** available credits. If a tool returns any of the messages above,
+relay it plainly with the link — don't pretend you have the number, and don't diagnose
+the cause yourself beyond what the message says.
