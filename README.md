@@ -43,6 +43,9 @@ the skill. Your ORTEX key is entered at connect time and never stored in this re
 
 ## Also available
 
-- **Claude Desktop / ChatGPT:** add `https://mcp.ortex.com` as a custom connector.
+- **Claude Desktop / claude.ai:** Settings → Connectors → Add custom connector → `https://mcp.ortex.com`.
+- **ChatGPT:** on chatgpt.com in a browser (web only), Plugins → + → Add custom MCP server →
+  `https://mcp.ortex.com` → Create as a plugin. No developer mode needed; available on ChatGPT Pro,
+  Business, Enterprise and Edu.
 
 © ORTEX. See LICENSE.
