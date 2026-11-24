@@ -1,16 +1,18 @@
-# ORTEX for Claude — plugin
+# ORTEX for Claude: plugin
 
-**Short-selling and market-intelligence data** inside Claude — the
-short interest, cost-to-borrow and squeeze signals desks pay for — plus an analyst
-skill that teaches Claude how to read them.
+ORTEX short-selling and market data inside Claude, plus skills that show Claude how to
+read it.
 
 This repo is a **Claude plugin marketplace**. Installing the plugin gives you:
 
-- **The ORTEX connector** — 27 tools for short interest, cost-to-borrow, days-to-cover,
-  options analytics, stock scores, Congressional trades, fundamentals, prices and more,
-  via the remote MCP server at `mcp.ortex.com`.
-- **The short-analysis skill** — securities-lending methodology so Claude reads the data
-  like an analyst (squeeze setups, how to combine CTB + DTC + utilisation, clean output).
+- **The ORTEX connector:** 34 read-only tools for short interest, cost to borrow, days to
+  cover, availability, options analytics, stock scores, US government (Congress) trades,
+  fundamentals, prices and ETF holdings, through the remote MCP server at `mcp.ortex.com`.
+- **Two skills:** `ortex-short-analysis` (how to read short-selling data together and
+  present a verdict with its evidence) and `get-started` (what you can ask).
+
+Everything is read-only. ORTEX never places trades or moves money, and it does not give
+personal investment advice. The data you can reach is what your ORTEX plan includes.
 
 ## Install (Claude Code)
 
@@ -19,8 +21,9 @@ This repo is a **Claude plugin marketplace**. Installing the plugin gives you:
 /plugin install ortex
 ```
 
-Then authorise ORTEX when prompted (log in and click **Authorize**, or paste an API key).
-Create a key at [app.ortex.com/apis](https://app.ortex.com/apis); short-selling data needs a Pro plan.
+Then authorize ORTEX when prompted: sign in to your ORTEX account and click **Authorize**.
+Which datasets you can read depends on your ORTEX plan; see
+[credits and pricing](https://docs.ortex.com/reference/credits-and-pricing).
 
 ## Try it
 
@@ -36,10 +39,11 @@ plugins/ortex/
   .claude-plugin/plugin.json        # plugin manifest
   .mcp.json                         # the ORTEX connector (points at mcp.ortex.com)
   skills/ortex-short-analysis/      # the analyst skill
+  skills/get-started/               # what you can ask
 ```
 
 No secrets, no API keys, no server code live here — just the public connector URL and
-the skill. Your ORTEX key is entered at connect time and never stored in this repo.
+the skills. You sign in to ORTEX at connect time; nothing about your account is stored in this repo.
 
 ## Also available
 
