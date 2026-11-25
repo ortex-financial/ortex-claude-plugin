@@ -2,22 +2,22 @@
   "name": "ortex",
   "owner": {
     "name": "ORTEX",
-    "url": "https://mcp.ortex.com"
+    "url": "https://ortex.com"
   },
   "metadata": {
-    "description": "ORTEX for Claude — the short-selling and market-intelligence data desks pay for.",
-    "version": "0.1.0"
+    "description": "ORTEX short-selling and market data for Claude.",
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "ortex",
       "displayName": "ORTEX",
       "source": "./plugins/ortex",
-      "description": "The short-selling and market-intelligence data professional desks pay for — inside Claude. Ask in plain English; no dashboards, no CSV exports.\n\nShort interest, cost-to-borrow, days-to-cover, utilisation and squeeze signals. Options chains, Greeks and put/call sentiment. ORTEX stock and short scores. Fundamentals, prices, earnings and macro calendars. Even US Congressional trades — 27 tools across the full ORTEX dataset.\n\nA bundled analyst skill teaches Claude to read it like a securities-lending desk: spotting squeeze setups, weighing cost-to-borrow against days-to-cover and utilisation, and turning raw feeds into a clean, decision-ready call.\n\nTry 'is GME a short-squeeze setup right now?' or 'rank NVDA, AMD and PLTR by ORTEX short score.' More at mcp.ortex.com.",
-      "version": "0.1.0",
+      "description": "ORTEX short-selling and market data in Claude, for investors, traders and analysts with an ORTEX account.\n\nAsk in plain English about a stock, a watchlist or an ETF: short interest and its share of free float, cost to borrow, days to cover, shares available to borrow, the ORTEX short score, exchange-reported short interest and European short filings. Also options chains, Greeks and put/call ratios, ORTEX stock scores, peers, US government (Congress) trades, fundamentals, prices, free float, splits, earnings and macro calendars, and ETF holdings and holders. 34 read-only tools.\n\nA bundled analyst skill shows Claude how to read short-selling data together and present a short verdict with the evidence and its as-of date.\n\nEverything is read-only. ORTEX never places trades or moves money, and it does not give personal investment advice. The data you can reach is what your ORTEX plan includes.",
+      "version": "1.0.0",
       "author": {
         "name": "ORTEX",
-        "url": "https://mcp.ortex.com"
+        "url": "https://ortex.com"
       },
       "homepage": "https://mcp.ortex.com",
       "category": "finance",
