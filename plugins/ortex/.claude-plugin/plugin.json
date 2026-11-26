@@ -1,8 +1,8 @@
 {
   "name": "ortex",
   "displayName": "ORTEX",
-  "version": "1.0.0",
-  "description": "ORTEX short-selling and market data in Claude, for investors, traders and analysts with an ORTEX account.\n\nAsk in plain English about a stock, a watchlist or an ETF: short interest and its share of free float, cost to borrow, days to cover, shares available to borrow, the ORTEX short score, exchange-reported short interest and European short filings. Also options chains, Greeks and put/call ratios, ORTEX stock scores, peers, US government (Congress) trades, fundamentals, prices, free float, splits, earnings and macro calendars, and ETF holdings and holders. 34 read-only tools.\n\nA bundled analyst skill shows Claude how to read short-selling data together and present a short verdict with the evidence and its as-of date.\n\nEverything is read-only. ORTEX never places trades or moves money, and it does not give personal investment advice. The data you can reach is what your ORTEX plan includes.",
+  "version": "1.0.1",
+  "description": "Better data. Better decisions. ORTEX's proprietary stock and financial data inside Claude, led by short interest: how heavily a stock is shorted, what it costs to borrow, days to cover and shares left to borrow, plus the ORTEX short score. Also options data, stock scores and peers, fundamentals, prices, earnings and macro calendars, US Congress trades and ETF data.\n\nA bundled analyst skill shows Claude how to read short-selling signals together.\n\nRead-only: ORTEX never places trades or moves money, and it does not give personal investment advice. The data available depends on your ORTEX plan.",
   "author": {
     "name": "ORTEX",
     "url": "https://ortex.com"
